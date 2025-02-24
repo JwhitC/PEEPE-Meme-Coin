@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEEPE Meme Coin</title>
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="🚀 PEEPE Meme Coin - The Funniest Crypto in the Universe! 🐸">
+  <meta property="og:description" content="Join the PEEPE revolution! No utility, just memes and laughs. Let's make crypto fun again! 🌕">
+  <meta property="og:image" content="https://i.imgur.com/YFLepc7.jpg"> <!-- Use your banner image URL -->
+  <meta property="og:url" content="https://your-username.github.io/your-repo-name"> <!-- Replace with your GitHub Pages URL -->
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="🚀 PEEPE Meme Coin - The Funniest Crypto in the Universe! 🐸">
+  <meta name="twitter:description" content="Join the PEEPE revolution! No utility, just memes and laughs. Let's make crypto fun again! 🌕">
+  <meta name="twitter:image" content="https://i.imgur.com/YFLepc7.jpg"> <!-- Use your banner image URL -->
+
+  <!-- Styles -->
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #fff9c4; /* Light yellow background */
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ffeb3b; /* Bright yellow */
+      padding: 20px;
+      position: relative;
+      border-bottom: 5px solid #fbc02d; /* Darker yellow border */
+    }
+
+    header h1 {
+      font-size: 4rem;
+      margin: 0;
+      color: #333;
+      text-shadow: 2px 2px 0 #fbc02d; /* Shadow for emphasis */
+    }
+
+    header p {
+      font-size: 1.5rem;
+      color: #333;
+      margin-top: 10px;
+    }
+
+    .banner {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 20px;
+      margin-top: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .meme-image {
+      width: 150px;
+      height: auto;
+      border-radius: 50%;
+      border: 5px solid #fbc02d;
+      margin-top: 20px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .about, .tokenomics, .how-to-buy, .contract-address {
+      background-color: #fff;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      color: #333;
+      text-shadow: 2px 2px 0 #fbc02d;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    a {
+      color: #ffeb3b;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contract-address {
+      word-wrap: break-word;
+      font-family: monospace;
+      background-color: #fbc02d;
+      padding: 10px;
+      border-radius: 10px;
+      color: #333;
+    }
+
+    .music-player {
+      margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .music-player button {
+      background-color: #ffeb3b;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 10px;
+      margin: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .music-player button:hover {
+      background-color: #fbc02d;
+    }
+
+    .volume-slider {
+      margin-top: 10px;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 10px;
+      background-color: #ddd;
+      border-radius: 5px;
+      margin-top: 10px;
+      position: relative;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background-color: #ffeb3b;
+      border-radius: 5px;
+      width: 0%;
+    }
+
+    .progress-bar-time {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Banner image with Imgur link -->
+    <img class="banner" src="https://i.imgur.com/YFLepc7.jpg" alt="Banner Image">
+    <h1>🚀 PEEPE Meme Coin 🚀</h1>
+    <p>PEEPE is taking over the crypto world, one meme at a time! 🐸</p>
+    <!-- Meme image with updated Imgur link and reduced size -->
+    <img class="meme-image" src="https://i.imgur.com/5C7Gbiz.jpeg" alt="PEEPE Meme Image">
+  </header>
+
+  <section class="about">
+    <h2>About PEEPE</h2>
+    <p>PEEPE is the ultimate fusion of <strong>Pepe the Frog</strong>, <strong>pee humor</strong>, and <strong>crypto madness</strong>! Born from the dankest corners of the internet, PEEPE is here to bring laughter, chaos, and a little bit of mischief to the blockchain. 🐸💦</p>
+    <p>With no utility, no roadmap, and absolutely no apologies, PEEPE is the meme coin that doesn’t take itself seriously. It’s all about the vibes, the memes, and the community. Whether you’re here to laugh, trade, or just watch the world burn, PEEPE has a place for you. Let’s make crypto fun again—one meme and one pee joke at a time! 🚽🌕</p>
+  </section>
+
+  <section class="tokenomics">
+    <h2>PEEPE Tokenomics</h2>
+    <p>Total Supply: 1,000,000,000 🪙</p>
+    <p>100% Liquidity Pool (No team allocation, no burns!)</p>
+    <p><small>All tokens are added to the liquidity pool for fair and decentralized trading.</small></p>
+  </section>
+
+  <section class="how-to-buy">
+    <h2>How to Buy PEEPE</h2>
+    <p>1. Download and set up <a href="https://phantom.app/" target="_blank">Phantom Wallet</a>.</p>
+    <p>2. Fund your wallet with SOL (Solana).</p>
+    <p>3. Go to <a href="https://pump.fun" target="_blank">Pump.fun</a> or <a href="https://raydium.io" target="_blank">Raydium</a>.</p>
+    <p>4. Swap SOL for PEEPE and join the meme army! 🚀</p>
+    <p>5. Hold PEEPE and watch the magic happen! 🌕</p>
+  </section>
+
+  <section class="contract-address">
+    <h2>PEEPE Contract Address</h2>
+    <p>Copy and paste the contract address below to add PEEPE to your wallet:</p>
+    <p class="contract-address">PEEPE1234567890abcdef1234567890abcdef1234567890abcdef</p>
+    <p><small>(Always verify the contract address on official channels before trading!)</small></p>
+  </section>
+
+  <!-- Music Player Section -->
+  <div class="music-player">
+    <audio id="peepe-song" src="https://raw.githubusercontent.com/JwhitC/PEEPE/main/PEEPE_SONG.mp3" autoplay loop></audio>
+    <button onclick="playPause()">Pause PEEPE Song 🎵</button>
+    <button onclick="toggleMute()">Mute 🔇</button>
+    <div class="volume-slider">
+      <label for="volume">Volume:</label>
+      <input type="range" id="volume" min="0" max="1" step="0.1" value="1" oninput="setVolume(this.value)">
+    </div>
+    <div class="progress-bar">
+      <div class="progress-bar-fill" id="progress-bar-fill"></div>
+    </div>
+    <div class="progress-bar-time">
+      <span id="current-time">0:00</span>
+      <span id="duration">0:00</span>
+    </div>
+  </div>
+
+  <footer>
+    <p>Disclaimer: PEEPE is a meme coin. This is not financial advice. PEEPE is here for the memes, not the money. 🚨</p>
+    <p>Follow PEEPE: <a href="https://twitter.com" target="_blank">Twitter</a> | <a href="https://t.me" target="_blank">Telegram</a></p>
+  </footer>
+
+  <script>
+    // JavaScript to control the audio
+    const audio = document.getElementById("peepe-song");
+    const progressBarFill = document.getElementById("progress-bar-fill");
+    const currentTime = document.getElementById("current-time");
+    const duration = document.getElementById("duration");
+
+    // Autoplay the song when the page loads
+    window.addEventListener("load", () => {
+      audio.play().catch(() => {
+        // If autoplay is blocked, show a message or require user interaction
+        alert("Click anywhere on the page to start the song!");
+      });
+    });
+
+    // Play/Pause functionality
+    function playPause() {
+      if (audio.paused) {
+        audio.play();
+        document.querySelector(".music-player button").textContent = "Pause PEEPE Song 🎵";
+      } else {
+        audio.pause();
+        document.querySelector(".music-player button").textContent = "Play PEEPE Song 🎵";
+      }
+    }
+
+    // Mute/Unmute functionality
+    function toggleMute() {
+      audio.muted = !audio.muted;
+      document.querySelector(".music-player button:nth-of-type(2)").textContent = audio.muted ? "Unmute 🔈" : "Mute 🔇";
+    }
+
+    // Volume control
+    function setVolume(volume) {
+      audio.volume = volume;
+    }
+
+    // Progress bar and time updates
+    audio.addEventListener("timeupdate", () => {
+      const progress = (audio.currentTime / audio.duration) * 100;
+      progressBarFill.style.width = `${progress}%`;
+
+      // Update current time
+      const minutes = Math.floor(audio.currentTime / 60);
+      const seconds = Math.floor(audio.currentTime % 60);
+      currentTime.textContent = `${minutes}:${seconds.toString().padStart(2, "0")}`;
+
+      // Update duration
+      const totalMinutes = Math.floor(audio.duration / 60);
+      const totalSeconds = Math.floor(audio.duration % 60);
+      duration.textContent = `${totalMinutes}:${totalSeconds.toString().padStart(2, "0")}`;
+    });
+
+    // Click on progress bar to seek
+    const progressBar = document.querySelector(".progress-bar");
+    progressBar.addEventListener("click", (e) => {
+      const rect = progressBar.getBoundingClientRect();
+      const clickPosition = (e.clientX - rect.left) / rect.width;
+      audio.currentTime = clickPosition * audio.duration;
+    });
+  </script>
+</body>
+</html>
